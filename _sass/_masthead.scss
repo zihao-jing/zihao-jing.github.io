@@ -16,6 +16,10 @@
   &__inner-wrap {
     @include container;
     @include clearfix;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 0.75rem;
     padding: .5em;
     font-family: $sans-serif-narrow;
 
@@ -34,6 +38,8 @@
 }
 
 .masthead__menu {
+  flex: 1 1 auto;
+  min-width: 0;
 
   ul {
     margin: 0;
@@ -41,6 +47,40 @@
     clear: both;
     list-style-type: none;
   }
+}
+
+.masthead__controls {
+  display: flex;
+  align-items: center;
+  flex: 0 0 auto;
+}
+
+.theme-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.35rem 0.6rem;
+  border: 1px solid var(--mm-border);
+  border-radius: $border-radius;
+  background: var(--mm-surface);
+  color: var(--mm-text);
+  font-family: $sans-serif;
+  font-size: $type-size-6;
+  line-height: 1;
+  cursor: pointer;
+
+  &:hover {
+    background: var(--mm-surface-muted);
+  }
+
+  &:focus {
+    outline: 2px solid var(--mm-link);
+    outline-offset: 2px;
+  }
+}
+
+.theme-toggle__text {
+  display: inline-block;
 }
 
 .masthead__menu-home-item {

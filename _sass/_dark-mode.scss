@@ -1,0 +1,208 @@
+/* ==========================================================================
+   Dark mode
+   ========================================================================== */
+
+:root {
+  color-scheme: light dark;
+  --mm-bg: #{$background-color};
+  --mm-surface: #{$background-color};
+  --mm-surface-muted: #{$lighter-gray};
+  --mm-surface-elevated: #{$body-color};
+  --mm-text: #{$text-color};
+  --mm-muted: #{mix(#fff, $gray, 25%)};
+  --mm-border: #{$border-color};
+  --mm-link: #{$link-color};
+  --mm-link-hover: #{$link-color-hover};
+  --mm-masthead-link: #{$masthead-link-color};
+  --mm-masthead-link-hover: #{$masthead-link-color-hover};
+  --mm-code-bg: #{$code-background-color};
+  --mm-code-border: #{$lighter-gray};
+  --mm-shadow: #{$box-shadow};
+  --mm-nav-accent: #{mix(#fff, $primary-color, 50%)};
+  --mm-btn-bg: #{$primary-color};
+  --mm-input-bg: #fff;
+  --mm-input-text: #{$text-color};
+  --mm-input-border: #{mix(#fff, #000, 80%)};
+}
+
+@media (prefers-color-scheme: dark) {
+  html:not([data-theme]) {
+    --mm-bg: #0f1115;
+    --mm-surface: #11151c;
+    --mm-surface-muted: #1a202c;
+    --mm-surface-elevated: #151a23;
+    --mm-text: #e6e9ef;
+    --mm-muted: #9aa0aa;
+    --mm-border: #2a2f3a;
+    --mm-link: #8ab4f8;
+    --mm-link-hover: #c3d7ff;
+    --mm-masthead-link: #d1d7e0;
+    --mm-masthead-link-hover: #ffffff;
+    --mm-code-bg: #1b2230;
+    --mm-code-border: #303747;
+    --mm-shadow: 0 1px 1px rgba(0, 0, 0, 0.45);
+    --mm-nav-accent: #4b6cb7;
+    --mm-btn-bg: #3d6ee8;
+    --mm-input-bg: #11151c;
+    --mm-input-text: #e6e9ef;
+    --mm-input-border: #2a2f3a;
+  }
+}
+
+html[data-theme="dark"] {
+  --mm-bg: #0f1115;
+  --mm-surface: #11151c;
+  --mm-surface-muted: #1a202c;
+  --mm-surface-elevated: #151a23;
+  --mm-text: #e6e9ef;
+  --mm-muted: #9aa0aa;
+  --mm-border: #2a2f3a;
+  --mm-link: #8ab4f8;
+  --mm-link-hover: #c3d7ff;
+  --mm-masthead-link: #d1d7e0;
+  --mm-masthead-link-hover: #ffffff;
+  --mm-code-bg: #1b2230;
+  --mm-code-border: #303747;
+  --mm-shadow: 0 1px 1px rgba(0, 0, 0, 0.45);
+  --mm-nav-accent: #4b6cb7;
+  --mm-btn-bg: #3d6ee8;
+  --mm-input-bg: #11151c;
+  --mm-input-text: #e6e9ef;
+  --mm-input-border: #2a2f3a;
+}
+
+html,
+body {
+  background-color: var(--mm-bg);
+  color: var(--mm-text);
+}
+
+a {
+  color: var(--mm-link);
+
+  &:hover {
+    color: var(--mm-link-hover);
+  }
+}
+
+hr,
+.page__content h1,
+.archive__subtitle,
+.page__share,
+.page__comments-title,
+.page__related,
+.comment:not(:last-child),
+.page__content .archive__item-title,
+.page__meta + .pagination,
+.page__share + .pagination,
+.page__comments + .pagination,
+.page__related + .pagination {
+  border-color: var(--mm-border);
+}
+
+figcaption {
+  color: var(--mm-muted);
+}
+
+p > code,
+a > code,
+li > code,
+figcaption > code,
+td > code {
+  background: var(--mm-code-bg);
+  border-color: var(--mm-code-border);
+}
+
+.masthead {
+  background-color: var(--mm-surface);
+  border-bottom-color: var(--mm-border);
+}
+
+.greedy-nav {
+  background: var(--mm-surface);
+
+  a {
+    color: var(--mm-masthead-link);
+
+    &:hover {
+      color: var(--mm-masthead-link-hover);
+    }
+  }
+
+  .visible-links a:before {
+    background: var(--mm-nav-accent);
+  }
+
+  button {
+    background-color: var(--mm-btn-bg);
+  }
+
+  .hidden-links {
+    border-color: var(--mm-border);
+    background: var(--mm-surface-elevated);
+    box-shadow: var(--mm-shadow);
+
+    a:hover {
+      color: var(--mm-masthead-link-hover);
+      background: var(--mm-surface-muted);
+    }
+
+    &:before {
+      border-color: var(--mm-border) transparent;
+    }
+
+    &:after {
+      border-color: var(--mm-surface-elevated) transparent;
+    }
+  }
+}
+
+.toc {
+  color: var(--mm-muted);
+  background-color: var(--mm-surface-elevated);
+  border-color: var(--mm-border);
+  box-shadow: var(--mm-shadow);
+}
+
+.author__urls {
+  border-color: var(--mm-border);
+  background: var(--mm-surface-elevated);
+  box-shadow: var(--mm-shadow);
+
+  &:before {
+    border-color: var(--mm-border) transparent;
+  }
+
+  &:after {
+    border-color: var(--mm-surface-elevated) transparent;
+  }
+}
+
+.page__comments-form {
+  background: var(--mm-surface-muted);
+}
+
+thead {
+  background-color: var(--mm-surface-muted);
+}
+
+td {
+  border-bottom-color: var(--mm-border);
+}
+
+input,
+textarea,
+select {
+  background-color: var(--mm-input-bg);
+  color: var(--mm-input-text);
+  border-color: var(--mm-input-border);
+}
+
+label,
+form legend {
+  color: var(--mm-text);
+}
+
+form legend {
+  border-bottom-color: var(--mm-border);
+}
