@@ -23,6 +23,8 @@
   --mm-input-bg: #fff;
   --mm-input-text: #{$text-color};
   --mm-input-border: #{mix(#fff, #000, 80%)};
+  --mm-selection-bg: #{mix($primary-color, #fff, 30%)};
+  --mm-selection-text: #{$text-color};
 }
 
 @media (prefers-color-scheme: dark) {
@@ -46,6 +48,8 @@
     --mm-input-bg: #11151c;
     --mm-input-text: #e6e9ef;
     --mm-input-border: #2a2f3a;
+    --mm-selection-bg: #3d5a80;
+    --mm-selection-text: #ffffff;
   }
 }
 
@@ -69,6 +73,8 @@ html[data-theme="dark"] {
   --mm-input-bg: #11151c;
   --mm-input-text: #e6e9ef;
   --mm-input-border: #2a2f3a;
+  --mm-selection-bg: #3d5a80;
+  --mm-selection-text: #ffffff;
 }
 
 html,
@@ -164,10 +170,27 @@ td > code {
   box-shadow: var(--mm-shadow);
 }
 
+.sidebar {
+  color: var(--mm-text);
+  
+  a {
+    color: var(--mm-text);
+    
+    &:hover {
+      color: var(--mm-link-hover);
+    }
+  }
+  
+  i {
+    color: var(--mm-text);
+  }
+}
+
 .author__urls {
   border-color: var(--mm-border);
   background: var(--mm-surface-elevated);
   box-shadow: var(--mm-shadow);
+  color: var(--mm-text);
 
   &:before {
     border-color: var(--mm-border) transparent;
@@ -175,6 +198,32 @@ td > code {
 
   &:after {
     border-color: var(--mm-surface-elevated) transparent;
+  }
+  
+  li {
+    color: var(--mm-text);
+    
+    i {
+      color: var(--mm-text) !important;
+    }
+  }
+  
+  a {
+    color: var(--mm-text);
+    
+    &:hover {
+      color: var(--mm-link-hover);
+    }
+    
+    i {
+      color: var(--mm-text) !important;
+    }
+  }
+}
+
+.social-icons {
+  .fa, .fab, .fas, .far {
+    color: var(--mm-text) !important;
   }
 }
 
@@ -205,4 +254,14 @@ form legend {
 
 form legend {
   border-bottom-color: var(--mm-border);
+}
+
+::selection {
+  background-color: var(--mm-selection-bg);
+  color: var(--mm-selection-text);
+}
+
+::-moz-selection {
+  background-color: var(--mm-selection-bg);
+  color: var(--mm-selection-text);
 }

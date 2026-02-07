@@ -69,13 +69,11 @@
    Author profile and links
    ========================================================================== */
 .profile_box{
+  display: block;
+  
   @include breakpoint($large) {
     display: block;
   }
-  display: flex;
-  justify-content: flex-start;
-  align-content: flex-start;
-  align-items: center;
 }
 
 .author__avatar {
