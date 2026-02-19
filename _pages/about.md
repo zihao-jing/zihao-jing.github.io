@@ -17,20 +17,22 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-## Teaching LLMs the Language of the World
+## Welcome to My Homepage
 
 I am a second-year Master student at [Department of Computer Science](https://www.csd.uwo.ca/), [Western University](https://www.uwo.ca/), under the supervision of [Prof. Pingzhao Hu](https://phulab.org/).
 
 Two first-author papers were accepted at top conferences (NeurIPS and ICLR) in my first year.
 
-My research interests include **Large Language Models (LLMs)** and **Multimodal LLM Reasoning**, with a focus on teaching LLMs to understand the world by integrating diverse modalities. I am also interested in **AI for Science**.
+<!-- My research interests include **Large Language Models (LLMs)** and **Multimodal LLM Reasoning**, with a focus on teaching LLMs to understand the world by integrating diverse modalities. I am also interested in **AI for Science**. -->
+My research interests focus on **Large Language Models (LLMs) and multimodal reasoning**, with a focus on improving LLM generalization and reliability for **socially impactful domains and AI-for-Science**. More broadly, I am open to other advanced LLM research across agent, efficient training, fairness, safety, and etc. [CV Here](/pdfs/Zihao_s_CV.pdf).
+
 
 
 <!-- # 🔥 News
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 
-# 📝 1st-Author Publications
+# 📝 Selected Publications
 - 🎓 Top Conferences During Master's
 
 <!-- Start the frist paper -->
@@ -56,7 +58,7 @@ My research interests include **Large Language Models (LLMs)** and **Multimodal 
 
 **? How can foundation transformers better embed 1D–3D structures?**
 
-[Structure-Aware Fusion with Progressive Injection for Multimodal Molecular Representation Learning](https://neurips.cc/virtual/2025/loc/san-diego/poster/119127) [**[Code]**](https://github.com/your-username/your-project) <strong><span class='show_paper_citations' data='EXAMPLE_CITATION_ID'></span></strong>
+[Structure-Aware Fusion with Progressive Injection for Multimodal Molecular Representation Learning](https://neurips.cc/virtual/2025/loc/san-diego/poster/119127) [**[Code]**](https://github.com/zihao-jing/MuMo) <strong><span class='show_paper_citations' data='EXAMPLE_CITATION_ID'></span></strong>
 
 **Zihao Jing**, Yan Sun, Yan Yi Li, Sugitha Janarthanan, Alana Deng, Pingzhao Hu
 
@@ -82,7 +84,7 @@ Scaling-Aware Adapter for Structure-Grounded LLM Reasoning <strong><span class='
 </div>
 </div>
 
-- 🎓  When I Was an Undergraduate
+- 🎓  Broader Applications
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Revised for a Workshop</div><img src='images/archs/workshop.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
@@ -97,7 +99,7 @@ Scaling-Aware Adapter for Structure-Grounded LLM Reasoning <strong><span class='
 </div>
 </div>
 
-
+*For a complete list of publications, see [Google Scholar]({{ site.author.googlescholar }}).*
 
 # 🎖 Honors and Awards
 - *2023* Silver Prize of Feng Ru Cup Science and Innovation Competition (University-level).
@@ -118,10 +120,11 @@ Scaling-Aware Adapter for Structure-Grounded LLM Reasoning <strong><span class='
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">SenseTime</div><img src='images/company/sensetime.jpeg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[Piccolo2: General Text Embedding with Multi-task Hybrid Loss Training](https://arxiv.org/abs/2405.06932) <strong><span class='show_paper_citations' data='EXAMPLE_CITATION_ID'></span></strong>,
+**LLM Research Intern** \| 2023.09--2024.06
 
-- Fine-tuned 100B-parameter LLM for vertical livestream marketing domain; led model optimization and iteration, deployed in production for Sina Weibo. 
-- Developed NLP embedding models; built training and evaluation pipelines, led model iterations, achieved top-1 performance on the C-MTEB benchmark.
+- **Text embeddings ([Piccolo2](https://arxiv.org/abs/2405.06932)):** Trained general-purpose embedding models with multi-task hybrid-loss objectives; built end-to-end training/evaluation pipelines and led iterative optimization of a generative embedding LLM; achieved top-1 ranking on C-MTEB (May 2024).
+- **Domain LLM adaptation (100B):** Fine-tuned a 100B-parameter LLM for vertical livestream marketing; drove data/recipe iteration and productionized the model for deployment at Sina Weibo.
+- **LLM research, engineering & scaling:** Gained hands-on experience with large-scale pretraining/fine-tuning codebases (SenseNova series), hyperparameter tuning, experiment tracking, and reproducible training workflows on multi-GPU infrastructure.
 
 </div>
 </div>
@@ -129,10 +132,76 @@ Scaling-Aware Adapter for Structure-Grounded LLM Reasoning <strong><span class='
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Jina AI</div><img src='images/company/jina.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-- Refined interfaces for Rungpt LLM product and contributed solution to the Llama community.
-- Budweiser Beer's public opinion analysis: implemented LLM to reduce >13% costs in noise reduction and sentiment analysis.
-- Led commercialization of a super-resolution model, including evaluation, tuning, performance testing, and pricing recommendations.
+**AI Research Intern** \| 2023.04--2023.09
+
+- **LLM engineering:** Improved RunGPT interface and contributed solutions to the **Llama** open-source ecosystem.
+- **Applied LLM:** Implemented LLM-based denoising and sentiment pipeline for Budweiser public-opinion analysis; reduced operational cost by >13%.
+- **Model commercialization:** Led evaluation/tuning of a super-resolution model; executed performance testing and produced pricing recommendations.
 
 
 </div>
 </div>
+
+# 🎤 Selected Talks
+
+<div class="talks-grid" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; margin: 1.5rem 0;">
+  <div class="talk-block" style="text-align: center; max-width: 320px;">
+    <a href="https://docs.google.com/presentation/d/105Dl92sWjmfIBvktO7sYI4vSJDk_UJZfV4EJErDOlPU/edit?usp=sharing">
+      <img src="images/talks/DemystifyingLLMs.png" alt="Demystifying Large Language Models" width="100%" style="display: block; border-radius: 6px;">
+      <p style="margin-top: 0.75rem; font-weight: 600;">Demystifying LLMs, From Pretrain to Adaptation, UWORCS 2025</p>
+    </a>
+  </div>
+  <div class="talk-block" style="text-align: center; max-width: 320px;">
+    <a href="https://docs.google.com/presentation/d/1STRbJ3gAZDHOUxICb0eFriS9So1DzE_k-u6HD-NNeq8/edit?usp=sharing">
+      <img src="images/talks/Advanced_Attention_Mechanism.png" alt="Advanced Attention Mechanism in Transformers" width="100%" style="display: block; border-radius: 6px;">
+      <p style="margin-top: 0.75rem; font-weight: 600;">Advanced Attention Mechanism, UWO Seminar</p>
+    </a>
+  </div>
+  <div class="talk-block" style="text-align: center; max-width: 320px;">
+    <a href="https://docs.google.com/presentation/d/1Ij5JzdSlkDElzGu_GH8X0KpTUmdcE581DAh5F3xsZ7o/edit?usp=sharing">
+      <img src="images/talks/Deepseek.png" alt="Deepseek vs. ChatGPT" width="100%" style="display: block; border-radius: 6px;">
+      <p style="margin-top: 0.75rem; font-weight: 600;">Deepseek-Advanced Reinforcement Learning Approaches, UWO Seminar</p>
+    </a>
+  </div>
+  <div class="talk-block" style="text-align: center; max-width: 320px;">
+    <a href="https://docs.google.com/presentation/d/15MNJCwaaM1xNMckSdDilzoPtEAUjXHZDLlRBIzPqN1I/edit?usp=sharing">
+      <img src="images/talks/Alphafold.png" alt="AlphaFolds and All-Atom Foundation Models" width="100%" style="display: block; border-radius: 6px;">
+      <p style="margin-top: 0.75rem; font-weight: 600;">AlphaFolds and All-Atom Foundation Models, UWO BioSeminar</p>
+    </a>
+  </div>
+</div>
+
+# 📄 Grant Proposals Written by me
+
+<div class="proposals-grid" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; margin: 1.5rem 0;">
+  <div class="proposal-block" style="text-align: center; max-width: 320px;">
+    <a href="/pdfs/ZIhao_Nvidia_Grant_Proposal.pdf">
+      <img src="images/proposals/nvidia_grant.png" alt="Nvidia Academic Grant" width="100%" style="display: block; border-radius: 6px;">
+      <p style="margin-top: 0.75rem; font-weight: 600;">Nvidia Academic Grant Program 2025</p>
+    </a>
+  </div>
+  <div class="proposal-block" style="text-align: center; max-width: 320px;">
+    <a href="/pdfs/2026_RRG_V3.2.pdf">
+      <img src="images/proposals/rrg_grant.png" alt="Alliance RRG Resource Grant" width="100%" style="display: block; border-radius: 6px;">
+      <p style="margin-top: 0.75rem; font-weight: 600;">Alliance (Computing Canada) RRG Grant</p>
+    </a>
+  </div>
+</div>
+
+# 👁 Academic Service (Reviewing)
+
+**Conference Reviewer**  ICLR 2026 (5 papers), ICML 2026 (6 papers)
+
+**Workshop Reviewer**  Time Series in the Age of Large Models (TSALM), ICLR 2026
+
+**Journal Reviewer**  ACM Transactions on Knowledge Discovery from Data (TKDD)
+
+# 📈 Technical Background
+
+**Skills narrative.** Trained in Software Engineering, I built a broad programming foundation, then transitioned to full-stack development. Industry projects, spanning production management systems and the Shanghai Highway (G60) AI monitor&prediction system, strengthened my engineering practice, service maintenance, and high-throughput deployment, including containerized workflows and Kubernetes.
+
+**In my third undergraduate year**, I shifted toward AI research through an internship at Jina AI, developing applied models (e.g., segmentation and sentiment analysis) and consolidating modern ML engineering skills (NumPy, PyTorch, Transformers) and professional collaborative practices.
+
+**I then joined SenseTime as an intern**, where I worked on LLM training (SenseNova series), building practical experience in pretraining and fine-tuning, codebase organization, and hyperparameter optimization.
+
+**During my M.Sc. in CS, Western University**, I have focused on advanced LLM for spatial geometry understanding, further deepening my large-scale training stack (multi-GPU/multi-node), HPC scheduling, and reproducible container-based experimentation.
