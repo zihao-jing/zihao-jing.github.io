@@ -101,17 +101,6 @@ Scaling-Aware Adapter for Structure-Grounded LLM Reasoning <strong><span class='
 
 *For a complete list of publications, see [Google Scholar]({{ site.author.googlescholar }}).*
 
-# 🎖 Honors and Awards
-- *2023* Silver Prize of Feng Ru Cup Science and Innovation Competition (University-level).
-- *2021* Third Prize, 13th National Undergraduate Mathematics Competition (National-level).
-- *2021* Third Prize, 32nd Beijing Undergraduate Mathematics Competition (Province-level).
-- *2021* Outstanding Student Leader Award (University-Level).
-- *2021* Third Prize in Physics Academic Competition (University-Level).
-- *2020* H Prize in the Mathematical Contest In Modeling.
-
-# 📖 Educations
-- *2024.09 - now)*, MSc of Computer Science, Western University. London, Canada.
-- *2019.09 - 2024.06*, Bachelor of Software Engineering, Beihang Univeristy. Beijing, China.
 
 <!-- # 💬 Invited Talks -->
 
@@ -188,6 +177,10 @@ Scaling-Aware Adapter for Structure-Grounded LLM Reasoning <strong><span class='
   </div>
 </div>
 
+# 📖 Educations
+- *2024.09 - now*, MSc of Computer Science, Western University. London, Canada.
+- *2019.09 - 2024.06*, Bachelor of Software Engineering, Beihang Univeristy. Beijing, China.
+
 # 👁 Academic Service (Reviewing)
 
 **Conference Reviewer**  ICLR 2026 (5 papers), ICML 2026 (6 papers)
@@ -205,3 +198,11 @@ Scaling-Aware Adapter for Structure-Grounded LLM Reasoning <strong><span class='
 **I then joined SenseTime as an intern**, where I worked on LLM training (SenseNova series), building practical experience in pretraining and fine-tuning, codebase organization, and hyperparameter optimization.
 
 **During my M.Sc. in CS, Western University**, I have focused on advanced LLM for spatial geometry understanding, further deepening my large-scale training stack (multi-GPU/multi-node), HPC scheduling, and reproducible container-based experimentation.
+
+# 🎖 Honors and Awards
+- *2023* Silver Prize of Feng Ru Cup Science and Innovation Competition (University-level).
+- *2021* Third Prize, 13th National Undergraduate Mathematics Competition (National-level).
+- *2021* Third Prize, 32nd Beijing Undergraduate Mathematics Competition (Province-level).
+- *2021* Outstanding Student Leader Award (University-Level).
+- *2021* Third Prize in Physics Academic Competition (University-Level).
+- *2020* H Prize in the Mathematical Contest In Modeling.

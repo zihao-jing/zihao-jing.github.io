@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Zihao Jing"
-description              : "MSc of Computer Science in Western University. My research centers on Large Language Models (LLMs), multimodal reasoning, and AI for Science."
+description              : "MSc of Computer Science in Western University. My research centers on Large Language Models (LLMs), multimodal reasoning."
 repository               : "zihao-jing/zihao-jing.github.io"
 google_scholar_stats_use_cdn : true
 

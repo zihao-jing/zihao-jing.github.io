@@ -1,16 +1,28 @@
-# main links links
+# main links links (order matches about page section order)
 main:
   - title: "About Me"
     url: "/#about-me"
 
   - title: "Publications"
-    url: "/#-1st-author-publications"
+    url: "/#-selected-publications"
 
-  - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
+  - title: "Internships"
+    url: "/#-internships"
+
+  - title: "Talks"
+    url: "/#-selected-talks"
+
+  - title: "Grant Proposals"
+    url: "/#-grant-proposals-written-by-me"
 
   - title: "Educations"
     url: "/#-educations"
 
-  - title: "Internships"
-    url: "/#-internships"
+  - title: "Academic Service"
+    url: "/#-academic-service-reviewing"
+
+  - title: "Technical Background"
+    url: "/#-technical-background"
+
+  - title: "Honors and Awards"
+    url: "/#-honors-and-awards"
