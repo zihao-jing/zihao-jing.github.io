@@ -41,7 +41,7 @@ My research interests focus on **Large Language Models (LLMs) and multimodal rea
 
 **? How can LLMs understand 2D/3D structure, e.g., molecules?**
 
-[Entropy-Guided Dynamic Tokens for Graph-LLM Alignment in Molecular Understanding](https://arxiv.org/pdf/2602.02742) [**[Code]**](https://github.com/zihao-jing/DQ-Former) <strong><span class='show_paper_citations' data='EXAMPLE_CITATION_ID'></span></strong>
+[Entropy-Guided Dynamic Tokens for Graph-LLM Alignment in Molecular Understanding](https://arxiv.org/pdf/2602.02742) [**[Code]**](https://github.com/zihao-jing/DQ-Former) [**[Video]**](https://www.loom.com/share/0f624c26551b4273b33371358c3164d3) <strong><span class='show_paper_citations' data='EXAMPLE_CITATION_ID'></span></strong>
 
 **Zihao Jing**, Qiuhao Zeng, Ruiyi Fang, Yan Sun, Boyu Wang, Pingzhao Hu
 
@@ -58,7 +58,7 @@ My research interests focus on **Large Language Models (LLMs) and multimodal rea
 
 **? How can foundation transformers better embed 1D–3D structures?**
 
-[Structure-Aware Fusion with Progressive Injection for Multimodal Molecular Representation Learning](https://neurips.cc/virtual/2025/loc/san-diego/poster/119127) [**[Code]**](https://github.com/zihao-jing/MuMo) <strong><span class='show_paper_citations' data='EXAMPLE_CITATION_ID'></span></strong>
+[Structure-Aware Fusion with Progressive Injection for Multimodal Molecular Representation Learning](https://neurips.cc/virtual/2025/loc/san-diego/poster/119127) [**[Code]**](https://github.com/zihao-jing/MuMo) [**[Video&Poster]**](https://neurips.cc/virtual/2025/loc/san-diego/poster/119127) <strong><span class='show_paper_citations' data='EXAMPLE_CITATION_ID'></span></strong>
 
 **Zihao Jing**, Yan Sun, Yan Yi Li, Sugitha Janarthanan, Alana Deng, Pingzhao Hu
 
@@ -206,3 +206,32 @@ Scaling-Aware Adapter for Structure-Grounded LLM Reasoning <strong><span class='
 - *2021* Outstanding Student Leader Award (University-Level).
 - *2021* Third Prize in Physics Academic Competition (University-Level).
 - *2020* H Prize in the Mathematical Contest In Modeling.
+
+# 👨‍🏫 Academic Mentors
+
+- [Prof. Pingzhao Hu](https://scholar.google.ca/citations?user=ejiSuoYAAAAJ&hl=en&oi=ao), Western University: &nbsp; *"Write a paper such that reviewers neither can nor need to ask questions."*
+- [Prof. Boyu Wang](https://scholar.google.ca/citations?user=qAZM5KcAAAAJ&hl=en&oi=ao), Western University: &nbsp; *"Read 20+ related papers before discussing ideas with me."*
+- [Yifu Ding](https://scholar.google.ca/citations?user=RCEI1r0AAAAJ&hl=en&oi=ao), PhD in CS, Beihang University: &nbsp; *"A paper should present clear, well-aligned challenges and novelties."*
+- [Qiuhao Zeng](https://scholar.google.ca/citations?user=MJdcPlgAAAAJ&hl=en&oi=ao), Postdoc in CS, University of Toronto: &nbsp; *"If you dig one direction deeper, you will always uncover novelty."*
+
+# 🎯 Leadership
+
+**Class Representative (Middle School–Undergraduate):** Organized 100+ activities and events. Most notably, organized a large-scale university event in the main auditorium and served as host, conducting an on-stage interview with [Xiaoqian Wang](https://baike.baidu.com/item/%E7%8E%8B%E5%B0%8F%E9%AA%9E/1377633) from CCTV. Received both department- and university-level Outstanding Student Leader Awards.
+
+**Master's Program:** Organized 5+ seminars. Highly willing and confident in leading events such as workshops.
+
+# 🚀 Career Goals
+
+My long-term career trajectory is centered on advancing LLM research at the highest level. 
+
+In the near term, I am actively pursuing **Ph.D. opportunities at top-tier institutions** such as the University of Toronto. 
+
+Following the Ph.D., I aim to pursue a **postdoctoral fellowship at elite research universities** such as Stanford University. 
+
+My ultimate goal is to serve as an **AI Scientist at leading AI organizations** — including OpenAI, Google DeepMind, and Meta AI — where I can drive frontier research on large language models and push the boundaries of AI capabilities.
+
+# 🛂 Immigration Status
+
+I am originally from China and have been residing in **London, Ontario, Canada** for approximately **1.5 years** on a Canadian study permit. 
+
+My background check has been successfully completed. I am confident that subsequent permits will be obtained without issue or delay, and this should not be a concern for prospective supervisors or collaborators.
