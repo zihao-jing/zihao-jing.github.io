@@ -19,12 +19,12 @@ redirect_from:
 
 ## Welcome to My Homepage
 
-I am a second-year Master student at [Department of Computer Science](https://www.csd.uwo.ca/), [Western University](https://www.uwo.ca/), under the supervision of [Prof. Pingzhao Hu](https://phulab.org/).
+I am a second-year Master's student in [Computer Science](https://www.csd.uwo.ca/) at [Western University](https://www.uwo.ca/), Canada, under the supervision of [Prof. Pingzhao Hu](https://phulab.org/).
 
-Two first-author papers were accepted at top conferences (NeurIPS and ICLR) in my first year.
+**Two first-author papers** were accepted at top conferences (**NeurIPS2025/ICLR2026**) in my first year.
 
 <!-- My research interests include **Large Language Models (LLMs)** and **Multimodal LLM Reasoning**, with a focus on teaching LLMs to understand the world by integrating diverse modalities. I am also interested in **AI for Science**. -->
-My research interests focus on **Large Language Models (LLMs) and multimodal reasoning**, with a focus on improving LLM generalization and reliability for **socially impactful domains and AI-for-Science**. More broadly, I am open to other advanced LLM research across agent, efficient training, fairness, safety, and etc. [CV Here](/pdfs/Zihao_s_CV.pdf).
+My research centers on **Large Language Models (LLMs)**, with a particular focus on **reasoning**, **multi-agent systems**, **AI safety**, and **LLMs for social impact**. I am also interested in other **LLM-related** directions, including efficiency, fairness, and AI for Science. [CV Here](/pdfs/Zihao_s_CV.pdf).
 
 
 

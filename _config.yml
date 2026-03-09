@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Zihao Jing"
-description              : "MSc of Computer Science in Western University. My research centers on Large Language Models (LLMs), multimodal reasoning."
+description              : "MSc student in Computer Science at Western University, <u>expected to graduate in June 2026</u>."
 repository               : "zihao-jing/zihao-jing.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Zihao Jing"
   avatar           : "images/avatar2_square.jpg"
-  bio              : "Western University"
+  bio              : "Western University 🇨🇦"
   location         : "London, Canada"
   employer         :
   pubmed           : 
