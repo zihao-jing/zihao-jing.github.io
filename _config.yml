@@ -7,7 +7,7 @@
 
 # Site Settings
 title                    : "Zihao Jing"
-description              : "MSc student in Computer Science at Western University, <u>expected to graduate in June 2026</u>."
+description              : "M.Sc. in Computer Science, Western University. Graduated April 2026."
 repository               : "zihao-jing/zihao-jing.github.io"
 google_scholar_stats_use_cdn : true
 
@@ -24,11 +24,12 @@ author:
   name             : "Zihao Jing"
   avatar           : "images/avatar2_square.jpg"
   bio              : "Western University 🇨🇦"
-  location         : "London, Canada"
+  location         : "Open to Relocation"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.ca/citations?user=xfvxo64AAAAJ&hl=en&oi=ao"
-  email            : "zjing29@uwo.ca"
+  cv               : "/pdfs/Zihao_s_CV.pdf"
+  email            : "zihaoj24@gmail.com"
   researchgate     :  # e.g., "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :

@@ -6,35 +6,29 @@ main:
   - title: "Publications"
     url: "/#-selected-publications"
 
+  - title: "Research Funding"
+    url: "/#-research-funding-and-grant-contributions"
+
+  - title: "Education"
+    url: "/#-education"
+
   - title: "Internships"
     url: "/#-internships"
 
   - title: "Talks"
     url: "/#-selected-talks"
 
-  - title: "Grant Proposals"
-    url: "/#-grant-proposals-written-by-me"
-
-  - title: "Educations"
-    url: "/#-educations"
-
   - title: "Academic Service"
-    url: "/#-academic-service-reviewing"
+    url: "/#-academic-service"
 
-  - title: "Technical Background"
-    url: "/#-technical-background"
+  - title: "Mentorship"
+    url: "/#-mentorship"
+
+  - title: "Technical Skills"
+    url: "/#-technical-skills"
 
   - title: "Honors and Awards"
     url: "/#-honors-and-awards"
 
-  - title: "Academic Mentors"
-    url: "/#-academic-mentors"
-
-  - title: "Leadership"
-    url: "/#-leadership"
-
-  - title: "Career Goals"
-    url: "/#-career-goals"
-
-  - title: "Immigration Status"
-    url: "/#-immigration-status"
+  - title: "Research Values"
+    url: "/#-research-values-from-my-mentors"
