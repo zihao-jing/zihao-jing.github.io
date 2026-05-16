@@ -24,7 +24,7 @@ I received my M.Sc. in [Computer Science](https://www.csd.uwo.ca/) from [Western
 
 During my M.Sc., I published **three first-author papers at NeurIPS, ICLR, and ICML** on structure-grounded multimodal reasoning.
 
-My research interests lie in **LLM Post-Training**, **Multimodal Reasoning**, **World Models**，and **Agents**. [[See My CV Here]](/pdfs/Zihao_s_CV.pdf)
+My research interests lie in **LLM Post-Training**, **Multimodal Reasoning**, **World Models**，and **Agents**. [[See My CV Here]](https://zihao-jing.org/CV.pdf)
 
 <!-- # 🔥 News
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
