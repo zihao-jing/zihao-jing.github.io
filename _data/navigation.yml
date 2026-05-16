@@ -1,34 +1,34 @@
 # main links links (order matches about page section order)
 main:
   - title: "About Me"
-    url: "/#about-me"
+    url: "/plain/#about-me"
 
   - title: "Publications"
-    url: "/#-selected-publications"
+    url: "/plain/#-selected-publications"
 
   - title: "Research Funding"
-    url: "/#-research-funding-and-grant-contributions"
+    url: "/plain/#-research-funding-and-grant-contributions"
 
   - title: "Education"
-    url: "/#-education"
+    url: "/plain/#-education"
 
   - title: "Internships"
-    url: "/#-internships"
+    url: "/plain/#-internships"
 
   - title: "Talks"
-    url: "/#-selected-talks"
+    url: "/plain/#-selected-talks"
 
   - title: "Academic Service"
-    url: "/#-academic-service"
+    url: "/plain/#-academic-service"
 
   - title: "Mentorship"
-    url: "/#-mentorship"
+    url: "/plain/#-mentorship"
 
   - title: "Technical Skills"
-    url: "/#-technical-skills"
+    url: "/plain/#-technical-skills"
 
   - title: "Honors and Awards"
-    url: "/#-honors-and-awards"
+    url: "/plain/#-honors-and-awards"
 
   - title: "Research Values"
-    url: "/#-research-values-from-my-mentors"
+    url: "/plain/#-research-values-from-my-mentors"
