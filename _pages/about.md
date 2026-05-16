@@ -202,7 +202,6 @@ Mentored junior students on operating systems, software tools, Linux workflows, 
 - **Research:** LLM Post-Training, Pre-Training / Fine-Tuning, Multimodal Alignment.
 - **Systems & Programming:** Linux, Slurm, Docker, HPC Workflows, Python, C/C++, Java, SQL.
 - **ML Engineering:** PyTorch, Transformers (HuggingFace), DeepSpeed, DDP/FSDP, Multi-GPU/Multi-Node Training.
-- **Languages:** English (Fluent), Chinese (Native).
 
 # 🎖 Honors and Awards
 - *2023* Silver Prize of Feng Ru Cup Science and Innovation Competition (University-level).
