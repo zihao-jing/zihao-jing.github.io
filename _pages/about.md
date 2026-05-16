@@ -35,7 +35,7 @@ My research interests lie in **LLM Post-Training**, **Multimodal Reasoning**, **
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='/images/archs/on_going.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**How can LLMs reason over structured entities of varying complexity?**
+**Can LLMs Reason Over Complex Structures Without Wasting Tokens?**
 
 [Scaling-Aware Adapter for Structure-Grounded LLM Reasoning](https://arxiv.org/pdf/2602.02780) [**[Code]**](https://github.com/zihao-jing/EntroAdap) <strong><span class='show_paper_citations' data='EXAMPLE_CITATION_ID'></span></strong>
 
@@ -50,7 +50,7 @@ Designed an entropy-guided smart adapter that focuses on the instruction-related
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='/images/archs/iclr_main.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**How can LLMs understand 2D and 3D structure, such as molecules?**
+**How Can LLMs Align With Structures Without Fixed-Size Bottlenecks?**
 
 [Entropy-Guided Dynamic Tokens for Graph-LLM Alignment in Molecular Understanding](https://arxiv.org/pdf/2602.02742) [**[Code]**](https://github.com/zihao-jing/DQ-Former) [**[Video]**](https://www.loom.com/share/0f624c26551b4273b33371358c3164d3) <strong><span class='show_paper_citations' data='EXAMPLE_CITATION_ID'></span></strong>
 
@@ -65,7 +65,7 @@ A dynamic connector that scales representation slots based on complexity, bridgi
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='/images/archs/nips_Main_structure_vn_.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**How can Transformers foundations faithfully embed 1D–3D structures?**
+**Can Foundation Models Learn Reliable Representations from Noisy Structures?**
 
 [Structure-Aware Fusion with Progressive Injection for Multimodal Molecular Representation Learning](https://neurips.cc/virtual/2025/loc/san-diego/poster/119127) [**[Code]**](https://github.com/zihao-jing/MuMo) [**[Video&Poster]**](https://neurips.cc/virtual/2025/loc/san-diego/poster/119127) <strong><span class='show_paper_citations' data='EXAMPLE_CITATION_ID'></span></strong>
 
