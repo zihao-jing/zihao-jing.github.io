@@ -7,10 +7,10 @@
 
 # Site Settings
 title                    : "Zihao Jing"
-description              : "M.Sc. in Computer Science, Western University. Graduated April 2026."
+description              : "M.Sc. in Computer Science, Western University. Graduating June 2026."
 repository               : "zihao-jing/academic-cv"
-url                      : "https://zihao-jing.github.io"
-baseurl                  : "/academic-cv"
+url                      : "https://zihao-jing.org"
+baseurl                  : ""
 google_scholar_stats_use_cdn : true
 
 # google analytics
@@ -26,7 +26,7 @@ author:
   name             : "Zihao Jing"
   avatar           : "images/avatar2_square.jpg"
   bio              : "Western University 🇨🇦"
-  location         : "Open to Relocation"
+  location         :
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.ca/citations?user=xfvxo64AAAAJ&hl=en&oi=ao"

@@ -1,11 +1,12 @@
 ---
-permalink: /
+permalink: /plain/
 title: ""
 excerpt: ""
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
+  - /plain
 ---
 
 {% if site.google_scholar_stats_use_cdn %}
@@ -23,7 +24,7 @@ I received my M.Sc. in [Computer Science](https://www.csd.uwo.ca/) from [Western
 
 During my M.Sc., I published **three first-author papers at NeurIPS, ICLR, and ICML** on structure-grounded multimodal reasoning.
 
-I am seeking RA and PhD opportunities in world models, agents, multimodal reasoning, and post-training. [[See My CV Here]](/pdfs/Zihao_s_CV.pdf)
+My research interests lie in **LLM Post-Training**, **Multimodal Reasoning**, **World Models**，and **Agents**. [[See My CV Here]](/pdfs/Zihao_s_CV.pdf)
 
 <!-- # 🔥 News
 - *2022.02*: &nbsp;🎉🎉 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
@@ -35,13 +36,13 @@ I am seeking RA and PhD opportunities in world models, agents, multimodal reason
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='images/archs/on_going.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**? How can LLMs reason over structure at scale?**
+**How can LLMs reason over structured entities of varying complexity?**
 
 [Scaling-Aware Adapter for Structure-Grounded LLM Reasoning](https://arxiv.org/pdf/2602.02780) [**[Code]**](https://github.com/zihao-jing/EntroAdap) <strong><span class='show_paper_citations' data='EXAMPLE_CITATION_ID'></span></strong>
 
 **Zihao Jing**, Qiuhao Zeng, Ruiyi Fang, Yan Yi Li, Yan Sun, Boyu Wang, Pingzhao Hu
 
-Proposed scaling-aware patching and a geometry-grounding adapter for structure-grounded LLM reasoning over variable-size spatial graphs. Achieved top-1 performance on 17/18 reasoning tasks from Mol-Instruction, RNA-QA, and DNA-Chat benchmarks.
+Designed an entropy-guided smart adapter that focuses on the instruction-related parts of 3D entities, solving the longstanding gap of LLMs treating all positions as equally important. Achieves top-1 on 17 out of 18 biology QA benchmarks, making LLM-assisted structural research an operational reality.
 
 </div>
 </div>
@@ -50,15 +51,13 @@ Proposed scaling-aware patching and a geometry-grounding adapter for structure-g
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/archs/iclr_main.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**? How can LLMs understand 2D/3D structure, e.g., molecules?**
+**How can LLMs understand 2D and 3D structure, such as molecules?**
 
 [Entropy-Guided Dynamic Tokens for Graph-LLM Alignment in Molecular Understanding](https://arxiv.org/pdf/2602.02742) [**[Code]**](https://github.com/zihao-jing/DQ-Former) [**[Video]**](https://www.loom.com/share/0f624c26551b4273b33371358c3164d3) <strong><span class='show_paper_citations' data='EXAMPLE_CITATION_ID'></span></strong>
 
 **Zihao Jing**, Qiuhao Zeng, Ruiyi Fang, Yan Sun, Boyu Wang, Pingzhao Hu
 
-**Challenges:** Current approach (1) compress graph into fixed-length tokens ([Q-Former style](https://arxiv.org/abs/2301.12597)), discarding fine-grained context for larger entities; (2) depend on heavy end-to-end tuning.
-
-**Our solutions:** (1) Entropy-Guided Patching allocates dynamic tokens for informative regions based on entropy, preserving salient relations while avoiding over-compression, (2) enabling connector-only alignment training. SOTA on 9/10 molecular tasks and 7/7 Mol-Instruction benchmarks.
+A dynamic connector that scales representation slots based on complexity, bridging the gap of fixed-size connectors that lose structural detail for large entities. The model ranks #1 on 20 of 21 understanding tasks and trains 3.5× faster under equivalent settings, directly advancing AI-driven drug design.
 
 </div>
 </div>
@@ -67,15 +66,13 @@ Proposed scaling-aware patching and a geometry-grounding adapter for structure-g
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='images/archs/nips_Main_structure_vn_.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-**? How can foundation transformers better embed 1D–3D structures?**
+**How can Transformers foundations faithfully embed 1D–3D structures?**
 
 [Structure-Aware Fusion with Progressive Injection for Multimodal Molecular Representation Learning](https://neurips.cc/virtual/2025/loc/san-diego/poster/119127) [**[Code]**](https://github.com/zihao-jing/MuMo) [**[Video&Poster]**](https://neurips.cc/virtual/2025/loc/san-diego/poster/119127) <strong><span class='show_paper_citations' data='EXAMPLE_CITATION_ID'></span></strong>
 
 **Zihao Jing**, Yan Sun, Yan Yi Li, Sugitha Janarthanan, Alana Deng, Pingzhao Hu
 
-**Challenges:** Molecular modeling suffers from (1) the same entity can yield inconsistent 3D inputs, destabilizing representations; (2) naive fusion: early, symmetric mixing lets noisy 3D dominate (modality collapse).
-
-**Our solutions:** (1) Structured Fusion Pipeline aligns 2D/3D into a stable prior, reducing 3D sensitivity. (2) Progressive Injection asymmetrically injects this prior into the main stream, preventing fusion collapse.
+Built a multimodal encoder that first stabilizes noisy 3D shape data into a reliable prior, solving the longstanding instability in multimodal embeddings that incorporate 3D geometry. Ranks #1 on 22/29 molecular property benchmarks with up to 27% better accuracy, and was applied to a pipeline for finding Pin1 inhibitors in cancer treatment.
 </div>
 </div>
 
@@ -116,8 +113,8 @@ Proposed scaling-aware patching and a geometry-grounding adapter for structure-g
 Received 25 RGU-years (Reference GPU Unit-Years, **equivalent to 5×A100-80GB GPU-years**) on Canada's national supercomputing cluster for our lab via the **Digital Research Alliance of Canada, Resources for Research Groups 2026** grant; estimated commercial rental value: ~US$80K.
 
 # 📖 Education
-- *2024.09 - 2026.04*, MSc of Computer Science, Western University. London, Canada.
-- *2019.09 - 2024.06*, Bachelor of Software Engineering, Beihang University. Beijing, China.
+- *2024.09 - 2026.06*, MSc of Computer Science, [Western University](https://www.csd.uwo.ca/). London, Canada. Supervised by [Prof. Pingzhao Hu](https://phulab.org/).
+- *2019.09 - 2024.06*, BEng, Software Engineering, [Beihang University](https://www.buaa.edu.cn/). Beijing, China. Graduated with Honors.
 
 # 💻 Internships
 
@@ -126,9 +123,9 @@ Received 25 RGU-years (Reference GPU Unit-Years, **equivalent to 5×A100-80GB GP
 
 **SenseTime - LLM Research Intern** \| 2023.09--2024.06
 
-- **Text embeddings ([Piccolo2](https://arxiv.org/abs/2405.06932)):** Trained general-purpose embedding models with multi-task hybrid-loss objectives; built end-to-end training/evaluation pipelines and led iterative optimization of a generative embedding LLM; achieved top-1 ranking on C-MTEB (May 2024).
-- **Domain LLM adaptation (100B):** Fine-tuned a 100B-parameter LLM for vertical livestream marketing; drove data/recipe iteration and productionized the model for deployment at Sina Weibo.
-- **LLM research, engineering & scaling:** Gained hands-on experience with large-scale pretraining/fine-tuning codebases (SenseNova series), hyperparameter tuning, experiment tracking, and reproducible training workflows on multi-GPU infrastructure.
+- Developed Piccolo-GPT, a dual-function LLM supporting both text embedding and generation within a single architecture.
+- Trained general-purpose text embedding models ([Piccolo2](https://arxiv.org/abs/2405.06932)); top-1 on C-MTEB (May 2024).
+- Fine-tuned a ~100B LLM for vertical livestream marketing for Sina Weibo.
 
 </div>
 </div>
@@ -138,9 +135,9 @@ Received 25 RGU-years (Reference GPU Unit-Years, **equivalent to 5×A100-80GB GP
 
 **Jina AI - AI Research Intern** \| 2023.04--2023.09
 
-- **LLM engineering:** Improved RunGPT interface and contributed solutions to the **Llama** open-source ecosystem.
-- **Applied LLM:** Implemented LLM-based denoising and sentiment pipeline for Budweiser public-opinion analysis; reduced operational cost by >13%.
-- **Model commercialization:** Led evaluation/tuning of a super-resolution model; executed performance testing and produced pricing recommendations.
+- Implemented LLM-based denoising and sentiment analysis pipeline for Budweiser; reduced cost >13%.
+- Led evaluation and deploying of super-resolution models for commercialization.
+- Contributed to RunGPT of LlamaIndex with our super-resolution pipeline.
 
 
 </div>
@@ -179,15 +176,19 @@ Received 25 RGU-years (Reference GPU Unit-Years, **equivalent to 5×A100-80GB GP
 
 # 👁 Academic Service
 
-**Conference Reviewer**  ICLR 2026 (5 papers), ICML 2026 (6 papers)
+**Conference Reviewer**  ICML 2026 (6 papers) 🏅 Gold Reviewer Award
 
-**Workshop Reviewer**  Time Series in the Age of Large Models (TSALM), ICLR 2026 (2 papers)
+**Conference Reviewer**  ICLR 2026 (5 papers)
+
+**Conference Reviewer**  NeurIPS 2026
+
+**Workshop Reviewer**  TSALM @ ICLR 2026; AI4GOOD, FMSD, GFM @ ICML 2026
 
 **Journal Reviewer**  ACM Transactions on Knowledge Discovery from Data (TKDD)
 
 **Journal Reviewer**  IEEE Transactions on Neural Networks and Learning Systems (TNNLS)
 
-**Conference Volunteer**  NeurIPS 2025, San Diego Convention Center
+**Conference Volunteer**  NeurIPS 2025, San Diego
 
 # 🧑‍🏫 Mentorship
 
@@ -199,10 +200,10 @@ Mentored junior students on operating systems, software tools, Linux workflows, 
 
 # 📈 Technical Skills
 
-- **LLMs:** pretraining, post-training, multimodal alignment, and agent workflow design.
-- **Systems and HPC:** Linux, Slurm, Docker, Singularity, Conda/Mamba, Git, and reproducible environments.
-- **Distributed Training:** PyTorch DDP/FSDP, DeepSpeed, multi-GPU/node training, profiling, and monitoring.
-- **Programming:** Python, C/C++, Java, MATLAB, SQL, Bash, JavaScript, and full-stack development.
+- **Research:** LLM Post-Training, Pre-Training / Fine-Tuning, Multimodal Alignment.
+- **Systems & Programming:** Linux, Slurm, Docker, HPC Workflows, Python, C/C++, Java, SQL.
+- **ML Engineering:** PyTorch, Transformers (HuggingFace), DeepSpeed, DDP/FSDP, Multi-GPU/Multi-Node Training.
+- **Languages:** English (Fluent), Chinese (Native).
 
 # 🎖 Honors and Awards
 - *2023* Silver Prize of Feng Ru Cup Science and Innovation Competition (University-level).
