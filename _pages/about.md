@@ -32,7 +32,7 @@ My research interests lie in **LLM Post-Training**, **Multimodal Reasoning**, **
 # 📝 Selected Publications
 🎓 Top-Tier Conferences During My Master's
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='images/archs/on_going.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='/images/archs/on_going.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **How can LLMs reason over structured entities of varying complexity?**
@@ -47,7 +47,7 @@ Designed an entropy-guided smart adapter that focuses on the instruction-related
 </div>
 
 <!-- Start the frist paper -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='images/archs/iclr_main.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='/images/archs/iclr_main.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **How can LLMs understand 2D and 3D structure, such as molecules?**
@@ -62,7 +62,7 @@ A dynamic connector that scales representation slots based on complexity, bridgi
 </div>
 
 <!-- Second paper -->
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='images/archs/nips_Main_structure_vn_.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">NeurIPS 2025</div><img src='/images/archs/nips_Main_structure_vn_.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **How can Transformers foundations faithfully embed 1D–3D structures?**
@@ -97,13 +97,13 @@ Built a multimodal encoder that first stabilizes noisy 3D shape data into a reli
 <div class="proposals-grid" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; margin: 1.5rem 0;">
   <div class="proposal-block" style="text-align: center; max-width: 320px;">
     <a href="/pdfs/ZIhao_Nvidia_Grant_Proposal.pdf">
-      <img src="images/proposals/nvidia_grant.png" alt="Nvidia Academic Grant" width="100%" style="display: block; border-radius: 6px;">
+      <img src="/images/proposals/nvidia_grant.png" alt="Nvidia Academic Grant" width="100%" style="display: block; border-radius: 6px;">
       <p style="margin-top: 0.75rem; font-weight: 600;">Nvidia Academic Grant Program 2025</p>
     </a>
   </div>
   <div class="proposal-block" style="text-align: center; max-width: 320px;">
     <a href="/pdfs/2026_RRG_V3.2.pdf">
-      <img src="images/proposals/rrg_grant.png" alt="Alliance RRG Resource Grant" width="100%" style="display: block; border-radius: 6px;">
+      <img src="/images/proposals/rrg_grant.png" alt="Alliance RRG Resource Grant" width="100%" style="display: block; border-radius: 6px;">
       <p style="margin-top: 0.75rem; font-weight: 600;">Alliance (Computing Canada) RRG Grant</p>
     </a>
   </div>
@@ -117,7 +117,7 @@ Received 25 RGU-years (Reference GPU Unit-Years, **equivalent to 5×A100-80GB GP
 
 # 💻 Internships
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SenseTime</div><img src='images/company/sensetime.jpeg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">SenseTime</div><img src='/images/company/sensetime.jpeg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **SenseTime - LLM Research Intern** \| 2023.09--2024.06
@@ -129,7 +129,7 @@ Received 25 RGU-years (Reference GPU Unit-Years, **equivalent to 5×A100-80GB GP
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Jina AI</div><img src='images/company/jina.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Jina AI</div><img src='/images/company/jina.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 **Jina AI - AI Research Intern** \| 2023.04--2023.09
@@ -148,25 +148,25 @@ Received 25 RGU-years (Reference GPU Unit-Years, **equivalent to 5×A100-80GB GP
 <div class="talks-grid" style="display: flex; flex-wrap: wrap; justify-content: center; gap: 2rem; margin: 1.5rem 0;">
   <div class="talk-block" style="text-align: center; max-width: 320px;">
     <a href="https://docs.google.com/presentation/d/105Dl92sWjmfIBvktO7sYI4vSJDk_UJZfV4EJErDOlPU/edit?usp=sharing">
-      <img src="images/talks/DemystifyingLLMs.png" alt="Demystifying Large Language Models" width="100%" style="display: block; border-radius: 6px;">
+      <img src="/images/talks/DemystifyingLLMs.png" alt="Demystifying Large Language Models" width="100%" style="display: block; border-radius: 6px;">
       <p style="margin-top: 0.75rem; font-weight: 600;">Demystifying LLMs, From Pretraining to Adaptation, UWORCS 2025</p>
     </a>
   </div>
   <div class="talk-block" style="text-align: center; max-width: 320px;">
     <a href="https://docs.google.com/presentation/d/1STRbJ3gAZDHOUxICb0eFriS9So1DzE_k-u6HD-NNeq8/edit?usp=sharing">
-      <img src="images/talks/Advanced_Attention_Mechanism.png" alt="Advanced Attention Mechanism in Transformers" width="100%" style="display: block; border-radius: 6px;">
+      <img src="/images/talks/Advanced_Attention_Mechanism.png" alt="Advanced Attention Mechanism in Transformers" width="100%" style="display: block; border-radius: 6px;">
       <p style="margin-top: 0.75rem; font-weight: 600;">Advanced Attention Mechanism, UWO Seminar</p>
     </a>
   </div>
   <div class="talk-block" style="text-align: center; max-width: 320px;">
     <a href="https://docs.google.com/presentation/d/1Ij5JzdSlkDElzGu_GH8X0KpTUmdcE581DAh5F3xsZ7o/edit?usp=sharing">
-      <img src="images/talks/Deepseek.png" alt="Deepseek vs. ChatGPT" width="100%" style="display: block; border-radius: 6px;">
+      <img src="/images/talks/Deepseek.png" alt="Deepseek vs. ChatGPT" width="100%" style="display: block; border-radius: 6px;">
       <p style="margin-top: 0.75rem; font-weight: 600;">DeepSeek-Advanced Reinforcement Learning Approaches, UWO Seminar</p>
     </a>
   </div>
   <div class="talk-block" style="text-align: center; max-width: 320px;">
     <a href="https://docs.google.com/presentation/d/15MNJCwaaM1xNMckSdDilzoPtEAUjXHZDLlRBIzPqN1I/edit?usp=sharing">
-      <img src="images/talks/Alphafold.png" alt="AlphaFolds and All-Atom Foundation Models" width="100%" style="display: block; border-radius: 6px;">
+      <img src="/images/talks/Alphafold.png" alt="AlphaFolds and All-Atom Foundation Models" width="100%" style="display: block; border-radius: 6px;">
       <p style="margin-top: 0.75rem; font-weight: 600;">AlphaFold and All-Atom Foundation Models, UWO BioSeminar</p>
     </a>
   </div>
