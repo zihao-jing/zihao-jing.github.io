@@ -52,7 +52,29 @@
 .masthead__controls {
   display: flex;
   align-items: center;
+  gap: 0.5rem;
   flex: 0 0 auto;
+}
+
+.masthead__new-version-btn {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.35rem 0.6rem;
+  border: 1px solid var(--mm-border);
+  border-radius: $border-radius;
+  background: var(--mm-surface);
+  color: var(--mm-text);
+  font-family: $sans-serif;
+  font-size: $type-size-6;
+  line-height: 1;
+  text-decoration: none;
+  white-space: nowrap;
+
+  &:hover {
+    background: var(--mm-surface-muted);
+    color: var(--mm-text);
+    text-decoration: none;
+  }
 }
 
 .theme-toggle {
